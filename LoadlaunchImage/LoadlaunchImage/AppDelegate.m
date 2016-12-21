@@ -21,17 +21,17 @@
     
     /* FullScreenAdType 全屏广告
      * LogoAdType 带logo的广告类似网易广告，值得注意的是启动图片必须带logo图
-     * ImgUrl  图片url
-     
+     * ImgUrl  网络图片url
+      */
     LoadlaunchImageView * adView = [[LoadlaunchImageView alloc]initWithWindow:self.window andType:LogoAdType andImgUrl:@"http://img4.duitang.com/uploads/item/201510/12/20151012201352_3t4UF.thumb.224_0.jpeg"];
-    */
+   
     /* FullScreenAdType 全屏广告
      * LogoAdType 带logo的广告类似网易广告，值得注意的是启动图片必须带logo图
      * localAdImgName  本地图片名字
-     */
+   
         LoadlaunchImageView * adView = [[LoadlaunchImageView alloc]initWithWindow:self.window andType:LogoAdType andImgUrl:nil];
         adView.localAdImgName = @"qidong.png";
-    
+      */
     //各种回调
     adView.clickBlock = ^(NSInteger tag){
         switch (tag) {
