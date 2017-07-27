@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                          LoadlaunchImage 是一个用于加载启动动画的工具
                    DESC
 
   s.homepage     = "https://github.com/zhangyanlf/LoadlaunchImage"
@@ -90,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LoadlaunchImage", "LoadlaunchImage/**/*.{h,m}"
+  s.source_files  = "LoadlaunchImage", "LoadlaunchImage/**/*/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
