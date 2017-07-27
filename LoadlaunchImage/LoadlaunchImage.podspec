@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LoadlaunchImage"
   s.version      = "1.0"
-  s.summary      = "A short description of LoadlaunchImage."
+  s.summary      = "This is a boot animation"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "https://github.com/zhangyanlf/LoadlaunchImage/LoadlaunchImage"
+  s.homepage     = "https://github.com/zhangyanlf/LoadlaunchImage"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zhangyanlf/LoadlaunchImage/LoadlaunchImage.git", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/zhangyanlf/LoadlaunchImage.git", :tag => "1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
